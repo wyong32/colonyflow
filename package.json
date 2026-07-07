@@ -5,6 +5,7 @@
     "scripts":  {
                     "dev":  "next dev",
                     "build":  "next build",
+                    "sync:levels":  "node scripts/sync-level-batch.mjs",
                     "start":  "next start",
                     "lint":  "next lint"
                 },

@@ -5,6 +5,8 @@ dist/
 build/
 coverage/
 
+docs/
+
 .vercel/
 .env
 .env.*

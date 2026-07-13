@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useEffect, useRef } from "react";
 
@@ -17,8 +17,12 @@ type GptTag = {
   display: (divIdOrSlot: string | GptSlot) => void;
   destroySlots?: (slots: GptSlot[]) => void;
   enableServices: () => void;
+  setConfig?: (config: {
+    centering?: boolean;
+    singleRequest?: boolean;
+  }) => void;
   pubads: () => {
-    enableSingleRequest: () => void;
+    enableSingleRequest?: () => void;
   };
   sizeMapping: () => GptSizeMappingBuilder;
   enums?: {
@@ -34,16 +38,17 @@ declare global {
     googletag?: GptTag;
     __colonyflowGptServicesEnabled?: boolean;
     __gptAnchorSlot?: GptSlot | null;
+    __gptInterstitialSlot?: GptSlot | null;
     __colonyflowGptInterstitialDisplayed?: boolean;
   }
 }
 
 const AD_UNITS = {
-  anchor: "/23346398271/colonyflow.org_0707_all/colonyflow.org_0707_anchor_1",
-  bannerTop: "/23346398271/colonyflow.org_0707_all/colonyflow.org_0707_banner",
-  bannerMiddle: "/23346398271/colonyflow.org_0707_all/colonyflow.org_0707_banner_2",
-  bannerBottom: "/23346398271/colonyflow.org_0707_all/colonyflow.org_0707_banner_3",
-  interstitial: "/23346398271/colonyflow.org_0707_all/colonyflow.org_0707_inter_1",
+  anchor: "/23355878051/colonyflow.org_0713_all/colonyflow.org_0713_ahchor_1",
+  bannerTop: "/23355878051/colonyflow.org_0713_all/colonyflow.org_0713_banner_1",
+  bannerMiddle: "/23355878051/colonyflow.org_0713_all/colonyflow.org_0713_banner_2",
+  bannerBottom: "/23355878051/colonyflow.org_0713_all/colonyflow.org_0713_banner_3",
+  interstitial: "/23355878051/colonyflow.org_0713_all/colonyflow.org_0713_inter_1",
 } as const;
 
 type BannerPlacement = "top" | "middle" | "bottom";
@@ -64,8 +69,13 @@ function enableGptServices(googletag: GptTag) {
     return;
   }
 
+  googletag.setConfig?.({
+    centering: true,
+    singleRequest: true,
+  });
+
   const pubads = googletag.pubads();
-  pubads.enableSingleRequest();
+  pubads.enableSingleRequest?.();
   googletag.enableServices();
   window.__colonyflowGptServicesEnabled = true;
 }
@@ -197,6 +207,7 @@ export function GptInterstitialAd() {
 
       slot.addService(googletag.pubads());
       enableGptServices(googletag);
+      window.__gptInterstitialSlot = slot;
       googletag.display(slot);
       window.__colonyflowGptInterstitialDisplayed = true;
     });

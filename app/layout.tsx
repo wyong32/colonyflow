@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { SiteNavbar } from "@/components/layout/site-navbar";
 import { ThemeProvider } from "@/components/theme-provider";
-import { GptAnchorAd, GptInterstitialAd } from "@/components/ads/gpt-ad";
+import { GptAnchorAd, GptInterstitialAd, GptSideRailAds } from "@/components/ads/gpt-ad";
 import Script from "next/script";
 import { canonical, gameDescription, gameKeywords, OG_IMAGE, SITE_NAME, SITE_URL } from "@/lib/site";
 
@@ -114,6 +114,7 @@ export default function RootLayout({
             {children}
           </main>
           <GptAnchorAd />
+          <GptSideRailAds />
           <GptInterstitialAd />
         </ThemeProvider>
       </body>

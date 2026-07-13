@@ -28,6 +28,8 @@ type GptTag = {
   enums?: {
     OutOfPageFormat?: {
       BOTTOM_ANCHOR?: unknown;
+      LEFT_SIDE_RAIL?: unknown;
+      RIGHT_SIDE_RAIL?: unknown;
       INTERSTITIAL?: unknown;
     };
   };
@@ -38,6 +40,8 @@ declare global {
     googletag?: GptTag;
     __colonyflowGptServicesEnabled?: boolean;
     __gptAnchorSlot?: GptSlot | null;
+    __gptLeftSideRailSlot?: GptSlot | null;
+    __gptRightSideRailSlot?: GptSlot | null;
     __gptInterstitialSlot?: GptSlot | null;
     __colonyflowGptInterstitialDisplayed?: boolean;
   }
@@ -180,6 +184,65 @@ export function GptAnchorAd() {
         slotRef.current = null;
       }
       window.__gptAnchorSlot = null;
+    };
+  }, []);
+
+  return null;
+}
+
+export function GptSideRailAds() {
+  const slotRefs = useRef<GptSlot[]>([]);
+
+  useEffect(() => {
+    let cancelled = false;
+    const googletag = getGoogletag();
+
+    googletag.cmd.push(() => {
+      if (cancelled) {
+        return;
+      }
+
+      const formats = googletag.enums?.OutOfPageFormat;
+      if (!formats || !googletag.defineOutOfPageSlot) {
+        return;
+      }
+
+      const sideRailFormats = [
+        { key: "__gptLeftSideRailSlot" as const, format: formats.LEFT_SIDE_RAIL },
+        { key: "__gptRightSideRailSlot" as const, format: formats.RIGHT_SIDE_RAIL },
+      ];
+
+      for (const { key, format } of sideRailFormats) {
+        if (!format) {
+          continue;
+        }
+
+        const slot = googletag.defineOutOfPageSlot(AD_UNITS.anchor, format);
+        if (!slot) {
+          continue;
+        }
+
+        slot.addService(googletag.pubads());
+        slotRefs.current.push(slot);
+        window[key] = slot;
+      }
+
+      if (slotRefs.current.length > 0) {
+        enableGptServices(googletag);
+        for (const slot of slotRefs.current) {
+          googletag.display(slot);
+        }
+      }
+    });
+
+    return () => {
+      cancelled = true;
+      if (slotRefs.current.length > 0 && window.googletag?.destroySlots) {
+        window.googletag.destroySlots(slotRefs.current);
+      }
+      slotRefs.current = [];
+      window.__gptLeftSideRailSlot = null;
+      window.__gptRightSideRailSlot = null;
     };
   }, []);
 

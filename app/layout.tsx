@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { SiteNavbar } from "@/components/layout/site-navbar";
 import { ThemeProvider } from "@/components/theme-provider";
-import { GptAnchorAd, GptInterstitialAd, GptSideRailAds } from "@/components/ads/gpt-ad";
+import { AffiliateGlobalAds } from "@/components/ads/affiliate-ad";
 import Script from "next/script";
 import { canonical, gameDescription, gameKeywords, OG_IMAGE, SITE_NAME, SITE_URL } from "@/lib/site";
 
@@ -88,12 +88,7 @@ export default function RootLayout({
             `,
           }}
         />
-        <Script
-          async
-          src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
+        {/* GPT disabled: replacing Ad Manager placements with affiliate ads. */}
         <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4638984121333143"
@@ -113,9 +108,7 @@ export default function RootLayout({
           <main className="min-h-screen bg-background">
             {children}
           </main>
-          <GptAnchorAd />
-          <GptSideRailAds />
-          <GptInterstitialAd />
+          <AffiliateGlobalAds />
         </ThemeProvider>
       </body>
     </html>

@@ -1,5 +1,5 @@
 ﻿import { Footer } from "@/components/footer";
-import { GptAd } from "@/components/ads/gpt-ad";
+import { AffiliateAd } from "@/components/ads/affiliate-ad";
 
 export const metadata = {
   title: "Terms of Service - Colony Flow Guide",
@@ -18,12 +18,12 @@ export default function TermsOfServicePage() {
           </h1>
 
           <p className="text-sm text-muted-foreground mb-8">
-            <strong>Last Updated:</strong> July 7, 2026
+            <strong>Last Updated:</strong> October 30, 2026
           </p>
 
           <div className="space-y-8 text-muted-foreground">
             <section>
-              <GptAd placement="top" />
+              <AffiliateAd placement="top" />
 
               <h2 className="text-2xl font-bold text-foreground mb-4">Agreement to Terms</h2>
               <p className="leading-relaxed mb-4">
@@ -83,7 +83,7 @@ export default function TermsOfServicePage() {
             </section>
 
             <section>
-              <GptAd placement="middle" />
+              <AffiliateAd placement="middle" />
 
               <h2 className="text-2xl font-bold text-foreground mb-4">User Content</h2>
               <p className="leading-relaxed mb-4">
@@ -156,7 +156,7 @@ export default function TermsOfServicePage() {
             </section>
 
             <section className="bg-card/50 border border-border rounded-2xl p-6 sm:p-8">
-              <GptAd placement="bottom" />
+              <AffiliateAd placement="bottom" />
 
               <h2 className="text-2xl font-bold text-foreground mb-4">Contact Information</h2>
               <p className="leading-relaxed mb-4">

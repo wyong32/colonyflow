@@ -18,8 +18,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'About Us - ColonyFlow.org',
     description: 'Learn about ColonyFlow.org, an independent Colony Flow guide site.',
-    images: [OG_IMAGE],
-    creator: '@ColonyFlowGuide'
+    images: [OG_IMAGE]
   },
   alternates: { canonical: canonical("/about-us/") }
 };

@@ -12,6 +12,9 @@ export const OG_IMAGE = "/Colony-Flow.jpg";
 export const gameDescription =
   "Colony Flow is a relaxing ant colony puzzle game where worker ants carry colorful cubes, follow trails, match color holes, and reveal beautiful pixel art.";
 
+export const siteDescription =
+  "Solve Colony Flow levels with video walkthroughs, checked guides, screenshot matching, strategy tips, and official iOS and Android download links.";
+
 export const gameKeywords = [
   "Colony Flow",
   "Colony Flow walkthrough",

@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Calendar, Clock, ArrowRight } from "lucide-react";
 import { getBlogPostsByCategory } from "@/data/blog-posts";
-import { GptAd } from "@/components/ads/gpt-ad";
+import { AffiliateAd } from "@/components/ads/affiliate-ad";
 
 interface BlogGridProps {
   selectedCategory: string;
@@ -78,7 +78,7 @@ export function BlogGrid({ selectedCategory }: BlogGridProps) {
             </article>
             {index === 2 && (
               <div className="md:col-span-2 lg:col-span-3">
-                <GptAd placement="middle" />
+                <AffiliateAd placement="middle" />
               </div>
             )}
           </Fragment>

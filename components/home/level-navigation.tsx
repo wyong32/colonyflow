@@ -7,7 +7,7 @@ import { LevelGrid } from "@/components/level/level-grid";
 import { getAllLevels } from "@/lib/data";
 import { DEFAULT_TEN_LEVEL_RANGE, getTenLevelRanges, LevelRange, parseLevelNumber, TOTAL_GUIDES } from "@/lib/level-utils";
 import { Button } from "@/components/ui/button";
-import { GptAd } from "@/components/ads/gpt-ad";
+import { AffiliateAd } from "@/components/ads/affiliate-ad";
 import { APP_STORE_URL, GAME_DEVELOPER, GAME_NAME, GOOGLE_PLAY_URL } from "@/lib/site";
 
 export function LevelNavigation() {
@@ -48,7 +48,7 @@ export function LevelNavigation() {
   return (
     <section className="level-navigation-section bg-background py-6 sm:py-8">
       <div className="container mx-auto px-4 sm:px-6">
-        <GptAd placement="top" />
+        <AffiliateAd placement="top" />
 
         <div className="mb-4 sm:mb-6 text-center">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-3 sm:mb-4 px-2">
@@ -127,7 +127,7 @@ export function LevelNavigation() {
               </div>
 
               <div id="how-to-play">
-                <GptAd placement="middle" />
+                <AffiliateAd placement="middle" />
                 <h2 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6 text-foreground">How to Play Colony Flow</h2>
                 <ul className="space-y-3 sm:space-y-4 ml-4 sm:ml-6">
                   <li className="text-muted-foreground text-sm sm:text-base leading-relaxed"><strong className="text-foreground">Tap a cube stack:</strong> Send a worker ant from the selected stack.</li>
@@ -170,7 +170,7 @@ export function LevelNavigation() {
               </div>
 
               <div id="faq">
-                <GptAd placement="bottom" />
+                <AffiliateAd placement="bottom" />
                 <h2 className="text-2xl sm:text-3xl font-bold mb-6 sm:mb-8 text-foreground">FAQ</h2>
                 <div className="space-y-6 sm:space-y-8">
                   {faqs.map((faq) => (

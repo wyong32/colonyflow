@@ -1,5 +1,5 @@
 import { Footer } from "@/components/footer";
-import { GptAd } from "@/components/ads/gpt-ad";
+import { AffiliateAd } from "@/components/ads/affiliate-ad";
 import { GAME_DEVELOPER, GAME_NAME, SITE_NAME } from "@/lib/site";
 
 export const metadata = {
@@ -20,13 +20,13 @@ export default function AboutUsPage() {
 
           <div className="space-y-8 text-muted-foreground">
             <section>
-              <GptAd placement="top" />
+              <AffiliateAd placement="top" />
               <h2 className="text-2xl font-bold text-foreground mb-4">Welcome to {SITE_NAME}</h2>
               <p className="leading-relaxed mb-4">
                 {SITE_NAME} is an independent guide site for {GAME_NAME}, the relaxing ant colony puzzle game by {GAME_DEVELOPER}. We organize walkthrough videos, level solutions, and strategy notes so players can solve tricky cube sorting boards faster.
               </p>
               <p className="leading-relaxed">
-                Our goal is to help players understand the move order behind each puzzle: when to send ants, which color group to clear first, and how to avoid blocked colony slots.
+                We publish the source video for every listed level. Detailed written steps are added only after the move order, visible stack values, board positions, and screenshots have been checked against that video.
               </p>
             </section>
 
@@ -34,15 +34,16 @@ export default function AboutUsPage() {
               <h2 className="text-2xl font-bold text-foreground mb-4">What We Offer</h2>
               <ul className="space-y-3 ml-6 list-disc">
                 <li className="leading-relaxed">Available Colony Flow level walkthroughs with embedded video guides.</li>
-                <li className="leading-relaxed">Strategy explanations for cube sorting, slot management, and color matching.</li>
+                <li className="leading-relaxed">Checked written steps for levels that have completed editorial review.</li>
+                <li className="leading-relaxed">A browser-only screenshot finder for matching a board to available guides.</li>
                 <li className="leading-relaxed">Beginner-friendly articles for learning the game mechanics.</li>
                 <li className="leading-relaxed">Download links for the official iOS and Android app pages.</li>
-                <li className="leading-relaxed">Regular updates when new reliable level videos are collected.</li>
+                <li className="leading-relaxed">Updates when reliable level videos and board images are available.</li>
               </ul>
             </section>
 
             <section>
-              <GptAd placement="middle" />
+              <AffiliateAd placement="middle" />
               <h2 className="text-2xl font-bold text-foreground mb-4">Independent Guide Notice</h2>
               <p className="leading-relaxed">
                 {SITE_NAME} is a fan-made guide resource and is not affiliated with, endorsed by, or officially connected to {GAME_DEVELOPER}. All trademarks and app store references belong to their respective owners.
@@ -50,10 +51,10 @@ export default function AboutUsPage() {
             </section>
 
             <section className="bg-card/50 border border-border rounded-2xl p-6 sm:p-8">
-              <GptAd placement="bottom" />
+              <AffiliateAd placement="bottom" />
               <h2 className="text-2xl font-bold text-foreground mb-4">Get in Touch</h2>
               <p className="leading-relaxed">
-                Found a missing level, broken video, or better route? Visit our <a href="/contact-us" className="text-primary hover:text-primary/80 hover:underline">Contact Us</a> page and send the details.
+                Found a missing level, broken video, or mismatched board? Visit our <a href="/contact-us/" className="text-primary hover:text-primary/80 hover:underline">Contact Us</a> page and send the details.
               </p>
             </section>
           </div>

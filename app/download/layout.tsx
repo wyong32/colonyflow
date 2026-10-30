@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { canonical, OG_IMAGE, SITE_NAME } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Download Colony Flow - iOS & Android July 2026",
+  title: "Download Colony Flow - iOS & Android",
   description: "Download Colony Flow for iOS and Android. Play the relaxing ant colony puzzle with colorful cube sorting, smart slot planning, and pixel art rewards.",
   keywords: ["Download Colony Flow", "Colony Flow iOS", "Colony Flow Android", "ant puzzle game download", "color sorting game"],
   authors: [{ name: "Colony Flow Guide Team" }],
@@ -25,8 +25,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Download Colony Flow - iOS & Android',
     description: 'Download Colony Flow and play relaxing ant colony cube sorting puzzles.',
-    images: [OG_IMAGE],
-    creator: '@ColonyFlowGuide'
+    images: [OG_IMAGE]
   },
   robots: {
     index: true,

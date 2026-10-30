@@ -18,8 +18,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Privacy Policy - ColonyFlow.org',
     description: 'Read the Privacy Policy for ColonyFlow.org.',
-    images: [OG_IMAGE],
-    creator: '@ColonyFlowGuide'
+    images: [OG_IMAGE]
   },
   alternates: { canonical: canonical("/privacy-policy/") }
 };

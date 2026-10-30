@@ -1,7 +1,7 @@
 "use client";
 
 import type { CSSProperties } from "react";
-import { GptAd } from "@/components/ads/gpt-ad";
+import { AffiliateAd } from "@/components/ads/affiliate-ad";
 
 interface ArticleContentWithAdsProps {
   content: string;
@@ -54,7 +54,7 @@ export function ArticleContentWithAds({ content, className = "", style }: Articl
     <div className={className} style={style}>
       {parts.map((part, index) => (
         <div key={index}>
-          {part.ad && <GptAd placement={part.ad} />}
+          {part.ad && <AffiliateAd placement={part.ad} />}
           <div dangerouslySetInnerHTML={{ __html: part.html }} />
         </div>
       ))}

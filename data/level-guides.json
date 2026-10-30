@@ -1,0 +1,69 @@
+{
+  "1": {
+    "objective": "Clear the star board and complete the pixel art",
+    "keyChallenge": "Keep one of the five colony slots open during the mixed-color phase",
+    "quickAnswer": "Start with the orange 14 in the upper-left. Continue with the two yellow 15 groups, then add white, orange, and yellow only as colony slots open. Keep the fifth slot empty until the next white group is available, and stop tapping after every source stack has entered the queue.",
+    "overallStrategy": [
+      "Level 1 is controlled by the five colony slots. Several source stacks become available quickly, but filling every slot removes the space needed for the next useful color.",
+      "Work down the opened left column first. The orange 14 exposes a yellow 15, and that yellow group opens the white block below it. During the mixed-color section, add one source stack only after a slot has cleared."
+    ],
+    "startingBoard": "The star uses orange around most of the outside edge, yellow through the inner arms, and white in the center. Nine source stacks sit below the board and five colony slots sit above them. The exposed orange 14 in the upper-left is the safe first selection.",
+    "steps": [
+      {
+        "title": "Open with the orange 14 in the upper-left",
+        "instruction": "Tap the exposed orange block marked 14 at the upper-left of the source stacks. It enters the first colony slot, starts the orange outside edge, and exposes the yellow 15 directly below it.",
+        "image": "/levels/1/steps/step-1.webp",
+        "imageAlt": "Orange 14 opening move in Colony Flow Level 1"
+      },
+      {
+        "title": "Take the yellow 15 revealed on the left",
+        "instruction": "Select the yellow 15 revealed in the same left column after the orange group begins clearing. Continue down the opened column instead of starting unrelated stacks on the right."
+      },
+      {
+        "title": "Start the center yellow 15",
+        "instruction": "Select the yellow 15 at the top-center of the remaining source stacks while the first yellow group is resolving. This keeps yellow active and opens the smaller white and orange groups needed next.",
+        "image": "/levels/1/steps/step-2.webp",
+        "imageAlt": "Second yellow 15 group active in Colony Flow Level 1"
+      },
+      {
+        "title": "Queue white, orange, then yellow",
+        "instruction": "Select the exposed white 4 on the left, the orange 14 in the middle, and the yellow 15 on the right, in that order. Stop after those selections and keep the fifth colony slot empty."
+      },
+      {
+        "title": "Refill one slot at a time",
+        "instruction": "When the left slot clears, select the next white 4. Repeat for the following white group, then add the orange 14 when the far-right slot opens. Do not select a new stack until a slot is actually free.",
+        "image": "/levels/1/steps/step-3.webp",
+        "imageAlt": "Mixed white orange and yellow clearing phase in Colony Flow Level 1"
+      },
+      {
+        "title": "Let the final yellow cubes finish",
+        "instruction": "After the last source stack disappears, stop tapping. The active ants carry the remaining yellow cubes into the star and complete the level without another selection."
+      }
+    ],
+    "beforeMove": [
+      "A colony slot is actually empty.",
+      "The selected source stack is fully exposed.",
+      "The current colors can still reach matching board cells.",
+      "The fifth slot remains available before the next white group."
+    ],
+    "stuckPoint": "The critical section begins when white, yellow, and orange are all active. Filling all five slots before the next white 4 appears leaves that useful group with nowhere to enter. Keep the fifth slot empty and add each remaining stack only when another slot clears.",
+    "faqs": [
+      {
+        "question": "What is the first move in Colony Flow Level 1?",
+        "answer": "Select the orange 14 at the upper-left of the source stack area."
+      },
+      {
+        "question": "Why should one colony slot stay open?",
+        "answer": "The next white group needs that slot as soon as the earlier white block finishes."
+      },
+      {
+        "question": "Which color clears the center of the star?",
+        "answer": "The white groups clear the center after the first orange and yellow selections open the board."
+      },
+      {
+        "question": "Do I need to tap during the final animation?",
+        "answer": "No. Once every source stack is assigned, the remaining ants finish the board automatically."
+      }
+    ]
+  }
+}

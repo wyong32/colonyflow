@@ -4,6 +4,8 @@ out/
 dist/
 build/
 coverage/
+*.tsbuildinfo
+.level-assets/
 
 docs/
 

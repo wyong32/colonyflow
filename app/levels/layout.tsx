@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { canonical, gameDescription, OG_IMAGE, SITE_NAME } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Colony Flow Levels Walkthroughs & Solutions July 2026",
+  title: "Colony Flow Levels Walkthroughs & Solutions",
   description: "Browse available Colony Flow level walkthroughs with video solutions, ant colony strategy tips, cube sorting routes, and puzzle guide updates.",
   keywords: ["Colony Flow levels", "Colony Flow walkthrough", "Colony Flow solutions", "level guide", "ant colony puzzle", "color sorting"],
   authors: [{ name: "Colony Flow Guide Team" }],
@@ -25,8 +25,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Colony Flow Levels Walkthroughs & Solutions',
     description: 'Browse available Colony Flow level videos, puzzle routes, and cube sorting solutions.',
-    images: [OG_IMAGE],
-    creator: '@ColonyFlowGuide'
+    images: [OG_IMAGE]
   },
   robots: {
     index: true,

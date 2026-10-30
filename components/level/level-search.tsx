@@ -40,6 +40,9 @@ export function LevelSearch({ open, onOpenChange }: LevelSearchProps) {
           <div className="relative">
             <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
             <Input
+              id="level-dialog-search"
+              name="level"
+              aria-label="Search Colony Flow levels"
               placeholder="Search by level ID, title, or tags..."
               className="pl-9"
               value={query}

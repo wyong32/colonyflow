@@ -36,7 +36,16 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "coverImage": "/levels/1/cover.webp",
+    "guideImages": [
+      "/levels/1/steps/step-1.webp",
+      "/levels/1/steps/step-2.webp",
+      "/levels/1/steps/step-3.webp"
+    ],
+    "assetVersion": 2,
+    "videoUploadDate": "2026-06-21T18:24:04.000Z",
+    "videoDurationIso": "PT40S"
   },
   {
     "id": "2",
@@ -75,7 +84,16 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "coverImage": "/levels/2/cover.webp",
+    "guideImages": [
+      "/levels/2/steps/step-1.webp",
+      "/levels/2/steps/step-2.webp",
+      "/levels/2/steps/step-3.webp"
+    ],
+    "assetVersion": 1,
+    "videoUploadDate": "2026-06-21T18:24:41.000Z",
+    "videoDurationIso": "PT41S"
   },
   {
     "id": "3",
@@ -114,7 +132,16 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "coverImage": "/levels/3/cover.webp",
+    "guideImages": [
+      "/levels/3/steps/step-1.webp",
+      "/levels/3/steps/step-2.webp",
+      "/levels/3/steps/step-3.webp"
+    ],
+    "assetVersion": 1,
+    "videoUploadDate": "2026-06-21T18:25:46.000Z",
+    "videoDurationIso": "PT1M33S"
   },
   {
     "id": "4",
@@ -153,7 +180,16 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "coverImage": "/levels/4/cover.webp",
+    "guideImages": [
+      "/levels/4/steps/step-1.webp",
+      "/levels/4/steps/step-2.webp",
+      "/levels/4/steps/step-3.webp"
+    ],
+    "assetVersion": 1,
+    "videoUploadDate": "2026-06-21T18:26:36.000Z",
+    "videoDurationIso": "PT1M46S"
   },
   {
     "id": "5",
@@ -192,7 +228,16 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "coverImage": "/levels/5/cover.webp",
+    "guideImages": [
+      "/levels/5/steps/step-1.webp",
+      "/levels/5/steps/step-2.webp",
+      "/levels/5/steps/step-3.webp"
+    ],
+    "assetVersion": 1,
+    "videoUploadDate": "2026-06-21T18:32:04.000Z",
+    "videoDurationIso": "PT2M53S"
   },
   {
     "id": "6",
@@ -231,7 +276,16 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "coverImage": "/levels/6/cover.webp",
+    "guideImages": [
+      "/levels/6/steps/step-1.webp",
+      "/levels/6/steps/step-2.webp",
+      "/levels/6/steps/step-3.webp"
+    ],
+    "assetVersion": 1,
+    "videoUploadDate": "2026-06-21T18:33:10.000Z",
+    "videoDurationIso": "PT47S"
   },
   {
     "id": "7",
@@ -270,7 +324,16 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "coverImage": "/levels/7/cover.webp",
+    "guideImages": [
+      "/levels/7/steps/step-1.webp",
+      "/levels/7/steps/step-2.webp",
+      "/levels/7/steps/step-3.webp"
+    ],
+    "assetVersion": 1,
+    "videoUploadDate": "2026-06-21T18:34:02.000Z",
+    "videoDurationIso": "PT1M28S"
   },
   {
     "id": "8",
@@ -309,7 +372,16 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "coverImage": "/levels/8/cover.webp",
+    "guideImages": [
+      "/levels/8/steps/step-1.webp",
+      "/levels/8/steps/step-2.webp",
+      "/levels/8/steps/step-3.webp"
+    ],
+    "assetVersion": 1,
+    "videoUploadDate": "2026-06-21T18:35:09.000Z",
+    "videoDurationIso": "PT1M35S"
   },
   {
     "id": "9",
@@ -348,7 +420,16 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "coverImage": "/levels/9/cover.webp",
+    "guideImages": [
+      "/levels/9/steps/step-1.webp",
+      "/levels/9/steps/step-2.webp",
+      "/levels/9/steps/step-3.webp"
+    ],
+    "assetVersion": 1,
+    "videoUploadDate": "2026-06-21T18:35:46.000Z",
+    "videoDurationIso": "PT1M23S"
   },
   {
     "id": "10",
@@ -387,7 +468,16 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "coverImage": "/levels/10/cover.webp",
+    "guideImages": [
+      "/levels/10/steps/step-1.webp",
+      "/levels/10/steps/step-2.webp",
+      "/levels/10/steps/step-3.webp"
+    ],
+    "assetVersion": 1,
+    "videoUploadDate": "2026-06-21T18:36:21.000Z",
+    "videoDurationIso": "PT2M36S"
   },
   {
     "id": "11",
@@ -426,7 +516,16 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "coverImage": "/levels/11/cover.webp",
+    "guideImages": [
+      "/levels/11/steps/step-1.webp",
+      "/levels/11/steps/step-2.webp",
+      "/levels/11/steps/step-3.webp"
+    ],
+    "assetVersion": 1,
+    "videoUploadDate": "2026-06-21T18:37:17.000Z",
+    "videoDurationIso": "PT1M25S"
   },
   {
     "id": "12",
@@ -465,7 +564,16 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "coverImage": "/levels/12/cover.webp",
+    "guideImages": [
+      "/levels/12/steps/step-1.webp",
+      "/levels/12/steps/step-2.webp",
+      "/levels/12/steps/step-3.webp"
+    ],
+    "assetVersion": 1,
+    "videoUploadDate": "2026-06-21T18:38:02.000Z",
+    "videoDurationIso": "PT2M24S"
   },
   {
     "id": "13",
@@ -504,7 +612,16 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "coverImage": "/levels/13/cover.webp",
+    "guideImages": [
+      "/levels/13/steps/step-1.webp",
+      "/levels/13/steps/step-2.webp",
+      "/levels/13/steps/step-3.webp"
+    ],
+    "assetVersion": 1,
+    "videoUploadDate": "2026-06-21T18:38:40.000Z",
+    "videoDurationIso": "PT2M11S"
   },
   {
     "id": "14",
@@ -543,7 +660,16 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "coverImage": "/levels/14/cover.webp",
+    "guideImages": [
+      "/levels/14/steps/step-1.webp",
+      "/levels/14/steps/step-2.webp",
+      "/levels/14/steps/step-3.webp"
+    ],
+    "assetVersion": 1,
+    "videoUploadDate": "2026-06-21T18:39:23.000Z",
+    "videoDurationIso": "PT1M3S"
   },
   {
     "id": "15",
@@ -582,7 +708,16 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "coverImage": "/levels/15/cover.webp",
+    "guideImages": [
+      "/levels/15/steps/step-1.webp",
+      "/levels/15/steps/step-2.webp",
+      "/levels/15/steps/step-3.webp"
+    ],
+    "assetVersion": 1,
+    "videoUploadDate": "2026-06-21T18:40:52.000Z",
+    "videoDurationIso": "PT2M25S"
   },
   {
     "id": "16",
@@ -621,7 +756,16 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "coverImage": "/levels/16/cover.webp",
+    "guideImages": [
+      "/levels/16/steps/step-1.webp",
+      "/levels/16/steps/step-2.webp",
+      "/levels/16/steps/step-3.webp"
+    ],
+    "assetVersion": 1,
+    "videoUploadDate": "2026-06-21T18:41:25.000Z",
+    "videoDurationIso": "PT1M17S"
   },
   {
     "id": "17",
@@ -660,7 +804,16 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "coverImage": "/levels/17/cover.webp",
+    "guideImages": [
+      "/levels/17/steps/step-1.webp",
+      "/levels/17/steps/step-2.webp",
+      "/levels/17/steps/step-3.webp"
+    ],
+    "assetVersion": 1,
+    "videoUploadDate": "2026-06-21T18:41:53.000Z",
+    "videoDurationIso": "PT1M27S"
   },
   {
     "id": "18",
@@ -699,7 +852,16 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "coverImage": "/levels/18/cover.webp",
+    "guideImages": [
+      "/levels/18/steps/step-1.webp",
+      "/levels/18/steps/step-2.webp",
+      "/levels/18/steps/step-3.webp"
+    ],
+    "assetVersion": 1,
+    "videoUploadDate": "2026-06-21T18:42:31.000Z",
+    "videoDurationIso": "PT1M38S"
   },
   {
     "id": "19",
@@ -738,7 +900,16 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "coverImage": "/levels/19/cover.webp",
+    "guideImages": [
+      "/levels/19/steps/step-1.webp",
+      "/levels/19/steps/step-2.webp",
+      "/levels/19/steps/step-3.webp"
+    ],
+    "assetVersion": 1,
+    "videoUploadDate": "2026-06-21T18:43:11.000Z",
+    "videoDurationIso": "PT1M43S"
   },
   {
     "id": "20",
@@ -777,7 +948,16 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "coverImage": "/levels/20/cover.webp",
+    "guideImages": [
+      "/levels/20/steps/step-1.webp",
+      "/levels/20/steps/step-2.webp",
+      "/levels/20/steps/step-3.webp"
+    ],
+    "assetVersion": 1,
+    "videoUploadDate": "2026-06-21T18:44:19.000Z",
+    "videoDurationIso": "PT6M49S"
   },
   {
     "id": "21",
@@ -816,7 +996,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT1M25S"
   },
   {
     "id": "22",
@@ -855,7 +1036,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT1M46S"
   },
   {
     "id": "23",
@@ -894,7 +1076,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M52S"
   },
   {
     "id": "24",
@@ -933,7 +1116,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M8S"
   },
   {
     "id": "25",
@@ -972,7 +1156,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M36S"
   },
   {
     "id": "26",
@@ -1011,7 +1196,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M8S"
   },
   {
     "id": "27",
@@ -1050,7 +1236,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT1M58S"
   },
   {
     "id": "28",
@@ -1089,7 +1276,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M24S"
   },
   {
     "id": "29",
@@ -1128,7 +1316,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M4S"
   },
   {
     "id": "30",
@@ -1167,7 +1356,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT4M10S"
   },
   {
     "id": "31",
@@ -1206,7 +1396,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT1M31S"
   },
   {
     "id": "32",
@@ -1245,7 +1436,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M46S"
   },
   {
     "id": "33",
@@ -1284,7 +1476,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M3S"
   },
   {
     "id": "34",
@@ -1323,7 +1516,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT4M28S"
   },
   {
     "id": "35",
@@ -1362,7 +1556,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT5M49S"
   },
   {
     "id": "36",
@@ -1401,7 +1596,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M2S"
   },
   {
     "id": "37",
@@ -1440,7 +1636,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT1M39S"
   },
   {
     "id": "38",
@@ -1479,7 +1676,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M58S"
   },
   {
     "id": "39",
@@ -1518,7 +1716,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M11S"
   },
   {
     "id": "40",
@@ -1557,7 +1756,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT5M39S"
   },
   {
     "id": "41",
@@ -1596,7 +1796,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M5S"
   },
   {
     "id": "42",
@@ -1635,7 +1836,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M27S"
   },
   {
     "id": "43",
@@ -1674,7 +1876,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M30S"
   },
   {
     "id": "44",
@@ -1713,7 +1916,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M31S"
   },
   {
     "id": "45",
@@ -1752,7 +1956,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M8S"
   },
   {
     "id": "46",
@@ -1791,7 +1996,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M19S"
   },
   {
     "id": "47",
@@ -1830,7 +2036,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT1M48S"
   },
   {
     "id": "48",
@@ -1869,7 +2076,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M41S"
   },
   {
     "id": "49",
@@ -1908,7 +2116,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M11S"
   },
   {
     "id": "50",
@@ -1947,7 +2156,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT4M7S"
   },
   {
     "id": "51",
@@ -1986,7 +2196,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT1M39S"
   },
   {
     "id": "52",
@@ -2025,7 +2236,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M19S"
   },
   {
     "id": "53",
@@ -2064,7 +2276,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M33S"
   },
   {
     "id": "54",
@@ -2103,7 +2316,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M13S"
   },
   {
     "id": "55",
@@ -2142,7 +2356,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M58S"
   },
   {
     "id": "56",
@@ -2181,7 +2396,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M16S"
   },
   {
     "id": "57",
@@ -2220,7 +2436,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT1M56S"
   },
   {
     "id": "58",
@@ -2259,7 +2476,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT4M35S"
   },
   {
     "id": "59",
@@ -2298,7 +2516,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M28S"
   },
   {
     "id": "60",
@@ -2337,7 +2556,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT4M45S"
   },
   {
     "id": "61",
@@ -2376,7 +2596,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT1M36S"
   },
   {
     "id": "62",
@@ -2415,7 +2636,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M55S"
   },
   {
     "id": "63",
@@ -2454,7 +2676,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M52S"
   },
   {
     "id": "64",
@@ -2493,7 +2716,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M25S"
   },
   {
     "id": "65",
@@ -2532,7 +2756,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT5M29S"
   },
   {
     "id": "66",
@@ -2571,7 +2796,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M57S"
   },
   {
     "id": "67",
@@ -2610,7 +2836,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M41S"
   },
   {
     "id": "68",
@@ -2649,7 +2876,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M58S"
   },
   {
     "id": "69",
@@ -2688,7 +2916,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT6M43S"
   },
   {
     "id": "70",
@@ -2727,7 +2956,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT6M49S"
   },
   {
     "id": "71",
@@ -2766,7 +2996,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M11S"
   },
   {
     "id": "72",
@@ -2805,7 +3036,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M33S"
   },
   {
     "id": "73",
@@ -2844,7 +3076,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT1M43S"
   },
   {
     "id": "74",
@@ -2883,7 +3116,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M33S"
   },
   {
     "id": "75",
@@ -2922,7 +3156,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M32S"
   },
   {
     "id": "76",
@@ -2961,7 +3196,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M27S"
   },
   {
     "id": "77",
@@ -3000,7 +3236,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M16S"
   },
   {
     "id": "78",
@@ -3039,7 +3276,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT4M20S"
   },
   {
     "id": "79",
@@ -3078,7 +3316,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M10S"
   },
   {
     "id": "81",
@@ -3117,7 +3356,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT1M37S"
   },
   {
     "id": "82",
@@ -3156,7 +3396,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M24S"
   },
   {
     "id": "83",
@@ -3195,7 +3436,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT1M56S"
   },
   {
     "id": "84",
@@ -3234,7 +3476,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M46S"
   },
   {
     "id": "85",
@@ -3273,7 +3516,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT4M36S"
   },
   {
     "id": "86",
@@ -3312,7 +3556,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M26S"
   },
   {
     "id": "87",
@@ -3351,7 +3596,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT6M12S"
   },
   {
     "id": "88",
@@ -3390,7 +3636,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M47S"
   },
   {
     "id": "89",
@@ -3429,7 +3676,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M23S"
   },
   {
     "id": "90",
@@ -3468,7 +3716,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT4M43S"
   },
   {
     "id": "91",
@@ -3507,7 +3756,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M42S"
   },
   {
     "id": "92",
@@ -3546,7 +3796,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M42S"
   },
   {
     "id": "93",
@@ -3585,7 +3836,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT4M20S"
   },
   {
     "id": "94",
@@ -3624,7 +3876,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M5S"
   },
   {
     "id": "95",
@@ -3663,7 +3916,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT5M56S"
   },
   {
     "id": "96",
@@ -3702,7 +3956,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M27S"
   },
   {
     "id": "98",
@@ -3741,7 +3996,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M32S"
   },
   {
     "id": "99",
@@ -3780,7 +4036,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M16S"
   },
   {
     "id": "100",
@@ -3819,7 +4076,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M49S"
   },
   {
     "id": "101",
@@ -3858,7 +4116,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT1M29S"
   },
   {
     "id": "102",
@@ -3897,7 +4156,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M"
   },
   {
     "id": "103",
@@ -3936,7 +4196,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT1M5S"
   },
   {
     "id": "104",
@@ -3975,7 +4236,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M35S"
   },
   {
     "id": "105",
@@ -4014,7 +4276,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT4M57S"
   },
   {
     "id": "106",
@@ -4053,7 +4316,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M36S"
   },
   {
     "id": "107",
@@ -4092,7 +4356,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M1S"
   },
   {
     "id": "108",
@@ -4131,7 +4396,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT8M56S"
   },
   {
     "id": "109",
@@ -4170,7 +4436,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M6S"
   },
   {
     "id": "110",
@@ -4209,7 +4476,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M50S"
   },
   {
     "id": "111",
@@ -4248,7 +4516,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M30S"
   },
   {
     "id": "112",
@@ -4287,7 +4556,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M39S"
   },
   {
     "id": "113",
@@ -4326,7 +4596,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M52S"
   },
   {
     "id": "114",
@@ -4365,7 +4636,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M51S"
   },
   {
     "id": "115",
@@ -4404,7 +4676,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M58S"
   },
   {
     "id": "116",
@@ -4443,7 +4716,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M44S"
   },
   {
     "id": "117",
@@ -4482,7 +4756,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT1M49S"
   },
   {
     "id": "118",
@@ -4521,7 +4796,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M36S"
   },
   {
     "id": "119",
@@ -4560,7 +4836,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M15S"
   },
   {
     "id": "120",
@@ -4599,7 +4876,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M31S"
   },
   {
     "id": "122",
@@ -4638,7 +4916,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT4M5S"
   },
   {
     "id": "123",
@@ -4677,7 +4956,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M53S"
   },
   {
     "id": "124",
@@ -4716,7 +4996,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M54S"
   },
   {
     "id": "125",
@@ -4755,7 +5036,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT5M25S"
   },
   {
     "id": "126",
@@ -4794,7 +5076,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT5M55S"
   },
   {
     "id": "127",
@@ -4833,7 +5116,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT1M54S"
   },
   {
     "id": "128",
@@ -4872,7 +5156,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT5M33S"
   },
   {
     "id": "129",
@@ -4911,7 +5196,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M5S"
   },
   {
     "id": "130",
@@ -4950,7 +5236,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT5M50S"
   },
   {
     "id": "131",
@@ -4989,7 +5276,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M50S"
   },
   {
     "id": "132",
@@ -5028,7 +5316,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M16S"
   },
   {
     "id": "133",
@@ -5067,7 +5356,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M40S"
   },
   {
     "id": "134",
@@ -5106,7 +5396,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M13S"
   },
   {
     "id": "135",
@@ -5145,7 +5436,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M1S"
   },
   {
     "id": "136",
@@ -5184,7 +5476,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M26S"
   },
   {
     "id": "137",
@@ -5223,7 +5516,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT1M52S"
   },
   {
     "id": "138",
@@ -5262,7 +5556,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M33S"
   },
   {
     "id": "139",
@@ -5301,7 +5596,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M47S"
   },
   {
     "id": "140",
@@ -5340,7 +5636,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M36S"
   },
   {
     "id": "141",
@@ -5379,7 +5676,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M44S"
   },
   {
     "id": "142",
@@ -5418,7 +5716,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT1M34S"
   },
   {
     "id": "143",
@@ -5457,7 +5756,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M3S"
   },
   {
     "id": "144",
@@ -5496,7 +5796,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M59S"
   },
   {
     "id": "145",
@@ -5535,7 +5836,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M9S"
   },
   {
     "id": "146",
@@ -5574,7 +5876,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M19S"
   },
   {
     "id": "147",
@@ -5613,7 +5916,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT4M42S"
   },
   {
     "id": "148",
@@ -5652,7 +5956,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M45S"
   },
   {
     "id": "149",
@@ -5691,7 +5996,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M52S"
   },
   {
     "id": "150",
@@ -5730,7 +6036,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT4M35S"
   },
   {
     "id": "151",
@@ -5769,7 +6076,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M19S"
   },
   {
     "id": "152",
@@ -5808,7 +6116,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M57S"
   },
   {
     "id": "153",
@@ -5847,7 +6156,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M26S"
   },
   {
     "id": "154",
@@ -5886,7 +6196,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT5M41S"
   },
   {
     "id": "155",
@@ -5925,7 +6236,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT5M11S"
   },
   {
     "id": "156",
@@ -5964,7 +6276,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT4M39S"
   },
   {
     "id": "157",
@@ -6003,7 +6316,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M33S"
   },
   {
     "id": "158",
@@ -6042,7 +6356,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M34S"
   },
   {
     "id": "159",
@@ -6081,7 +6396,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M29S"
   },
   {
     "id": "160",
@@ -6120,7 +6436,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT4M46S"
   },
   {
     "id": "161",
@@ -6159,7 +6476,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT6M13S"
   },
   {
     "id": "162",
@@ -6198,7 +6516,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M12S"
   },
   {
     "id": "163",
@@ -6237,7 +6556,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT1M30S"
   },
   {
     "id": "164",
@@ -6276,7 +6596,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M28S"
   },
   {
     "id": "165",
@@ -6315,7 +6636,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT4M26S"
   },
   {
     "id": "166",
@@ -6354,7 +6676,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M17S"
   },
   {
     "id": "167",
@@ -6393,7 +6716,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT4M13S"
   },
   {
     "id": "168",
@@ -6432,7 +6756,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M39S"
   },
   {
     "id": "169",
@@ -6471,7 +6796,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M30S"
   },
   {
     "id": "170",
@@ -6510,7 +6836,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M41S"
   },
   {
     "id": "171",
@@ -6549,7 +6876,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M45S"
   },
   {
     "id": "172",
@@ -6588,7 +6916,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT4M23S"
   },
   {
     "id": "173",
@@ -6627,7 +6956,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M58S"
   },
   {
     "id": "174",
@@ -6666,7 +6996,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M24S"
   },
   {
     "id": "175",
@@ -6705,7 +7036,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT7M49S"
   },
   {
     "id": "176",
@@ -6744,7 +7076,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M49S"
   },
   {
     "id": "177",
@@ -6783,7 +7116,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M33S"
   },
   {
     "id": "178",
@@ -6822,7 +7156,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT1M32S"
   },
   {
     "id": "179",
@@ -6861,7 +7196,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M28S"
   },
   {
     "id": "180",
@@ -6900,7 +7236,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT4M40S"
   },
   {
     "id": "181",
@@ -6939,7 +7276,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT4M23S"
   },
   {
     "id": "182",
@@ -6978,7 +7316,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M16S"
   },
   {
     "id": "183",
@@ -7017,7 +7356,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M15S"
   },
   {
     "id": "184",
@@ -7056,7 +7396,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M25S"
   },
   {
     "id": "185",
@@ -7095,7 +7436,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT8M9S"
   },
   {
     "id": "186",
@@ -7134,7 +7476,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M48S"
   },
   {
     "id": "187",
@@ -7173,7 +7516,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M33S"
   },
   {
     "id": "188",
@@ -7212,7 +7556,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT4M"
   },
   {
     "id": "189",
@@ -7251,7 +7596,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M59S"
   },
   {
     "id": "190",
@@ -7290,7 +7636,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M25S"
   },
   {
     "id": "191",
@@ -7329,7 +7676,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M43S"
   },
   {
     "id": "192",
@@ -7368,7 +7716,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT3M6S"
   },
   {
     "id": "193",
@@ -7407,7 +7756,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M28S"
   },
   {
     "id": "194",
@@ -7446,7 +7796,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M58S"
   },
   {
     "id": "195",
@@ -7485,7 +7836,8 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT5M58S"
   },
   {
     "id": "196",
@@ -7524,6 +7876,7 @@
       "solution",
       "ant puzzle",
       "color sorting"
-    ]
+    ],
+    "videoDurationIso": "PT2M25S"
   }
 ]

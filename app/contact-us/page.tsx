@@ -1,6 +1,6 @@
 import { Footer } from "@/components/footer";
 import { Mail, MessageSquare, Clock } from "lucide-react";
-import { GptAd } from "@/components/ads/gpt-ad";
+import { AffiliateAd } from "@/components/ads/affiliate-ad";
 import { SITE_NAME } from "@/lib/site";
 
 const CONTACT_EMAIL = "support@colonyflow.org";
@@ -58,7 +58,7 @@ export default function ContactUsPage() {
             </div>
 
             <section className="bg-card/50 border border-border rounded-2xl p-6 sm:p-8">
-              <GptAd placement="top" />
+              <AffiliateAd placement="top" />
               <h2 className="text-2xl font-bold text-foreground mb-4">What to Include</h2>
               <ul className="space-y-2 ml-6 list-disc text-muted-foreground">
                 <li className="leading-relaxed">The Colony Flow level number.</li>
@@ -69,7 +69,7 @@ export default function ContactUsPage() {
             </section>
 
             <section className="bg-gradient-to-r from-primary/10 to-accent/10 border border-primary/20 rounded-2xl p-6 sm:p-8 text-center">
-              <GptAd placement="bottom" />
+              <AffiliateAd placement="bottom" />
               <h2 className="text-2xl font-bold text-foreground mb-3">Help Improve the Guide</h2>
               <p className="text-muted-foreground leading-relaxed mb-6">
                 Accurate level routes make the site more useful for Colony Flow players. Send corrections when you find a clearer solution.

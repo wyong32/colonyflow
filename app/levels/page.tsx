@@ -6,7 +6,8 @@ import { getAllLevels } from "@/lib/data";
 import { DEFAULT_TEN_LEVEL_RANGE, getTenLevelRanges, MAX_LEVEL, parseLevelNumber, TOTAL_GUIDES } from "@/lib/level-utils";
 import { SocialShare } from "@/components/social-share";
 import { Footer } from "@/components/footer";
-import { GptAd } from "@/components/ads/gpt-ad";
+import { ScanSearch } from "lucide-react";
+import { AffiliateAd } from "@/components/ads/affiliate-ad";
 
 export default function LevelsPage() {
   const allLevels = getAllLevels();
@@ -29,14 +30,20 @@ export default function LevelsPage() {
       <div className="container mx-auto px-6 py-12">
         {/* Walkthrough Introduction */}
         <div className="mb-12">
-          <GptAd placement="top" />
+          <AffiliateAd placement="top" />
 
-          <h2 className="text-3xl font-bold mb-4 text-center text-[#3D2E1F]">
-            Colony Flow Available Level Walkthroughs
-          </h2>
+          <h1 className="text-3xl font-bold mb-4 text-center text-[#3D2E1F]">
+            Colony Flow All Levels Walkthroughs
+          </h1>
           <p className="text-center text-[#5C4D3C] text-lg leading-relaxed max-w-4xl mx-auto">
             Browse {TOTAL_GUIDES} Colony Flow video guides up to Level {MAX_LEVEL}. Use the range filters to find a specific ant colony puzzle, then follow the video route to sort cubes, manage slots, and clear the board.
           </p>
+          <div className="mx-auto mt-5 flex max-w-4xl justify-center">
+            <a href="/find-level/" className="inline-flex items-center gap-2 rounded-md border border-border bg-card px-4 py-2 text-sm font-bold text-foreground hover:border-primary hover:text-primary">
+              <ScanSearch className="h-4 w-4" aria-hidden="true" />
+              Find a level by screenshot
+            </a>
+          </div>
 
           {/* Social Share */}
           <div className="max-w-4xl mx-auto">
@@ -65,9 +72,9 @@ export default function LevelsPage() {
         </div>
 
         {/* Level Grid */}
-        <GptAd placement="middle" />
+        <AffiliateAd placement="middle" />
         <LevelGrid levels={filteredLevels} />
-        <GptAd placement="bottom" />
+        <AffiliateAd placement="bottom" />
       </div>
       <Footer />
     </div>

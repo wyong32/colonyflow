@@ -2,17 +2,16 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { SiteNavbar } from "@/components/layout/site-navbar";
 import { ThemeProvider } from "@/components/theme-provider";
-import { AffiliateGlobalAds } from "@/components/ads/affiliate-ad";
-import Script from "next/script";
-import { canonical, gameDescription, gameKeywords, OG_IMAGE, SITE_NAME, SITE_URL } from "@/lib/site";
+import { SiteScripts } from "@/components/site-scripts";
+import { canonical, gameKeywords, OG_IMAGE, siteDescription, SITE_NAME, SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Colony Flow Walkthrough Guides, Level Solutions & Tips July 2026",
+    default: "Colony Flow Walkthrough Guides, Level Solutions & Tips",
     template: `%s | ${SITE_NAME}`
   },
-  description: `${gameDescription} Find updated walkthrough videos, level solutions, strategy tips, and download links for iOS and Android.`,
+  description: siteDescription,
   keywords: gameKeywords,
   authors: [{ name: "Colony Flow Guide Team" }],
   creator: SITE_NAME,
@@ -32,7 +31,7 @@ export const metadata: Metadata = {
     url: canonical(),
     siteName: SITE_NAME,
     title: 'Colony Flow Walkthrough Guides, Level Solutions & Tips',
-    description: gameDescription,
+    description: siteDescription,
     images: [
       {
         url: OG_IMAGE,
@@ -45,9 +44,8 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Colony Flow Walkthrough Guides, Level Solutions & Tips',
-    description: gameDescription,
-    images: [OG_IMAGE],
-    creator: '@ColonyFlowGuide'
+    description: siteDescription,
+    images: [OG_IMAGE]
   },
   robots: {
     index: true,
@@ -72,30 +70,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head>
-        <Script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-FTB2Y81LTE"
-        />
-        <Script
-          id="google-analytics"
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-FTB2Y81LTE');
-            `,
-          }}
-        />
-        {/* GPT disabled: replacing Ad Manager placements with affiliate ads. */}
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4638984121333143"
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
-      </head>
       <body className="overflow-x-hidden bg-background font-sans" suppressHydrationWarning>
         <ThemeProvider
           attribute="class"
@@ -104,11 +78,11 @@ export default function RootLayout({
           disableTransitionOnChange
           storageKey="colony-flow-theme"
         >
+          <SiteScripts />
           <SiteNavbar />
           <main className="min-h-screen bg-background">
             {children}
           </main>
-          <AffiliateGlobalAds />
         </ThemeProvider>
       </body>
     </html>

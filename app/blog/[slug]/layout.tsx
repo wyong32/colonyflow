@@ -54,8 +54,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       card: 'summary_large_image',
       title: post.title,
       description: post.excerpt,
-      images: [post.image],
-      creator: '@ColonyFlowGuide'
+      images: [post.image]
     },
     alternates: {
       canonical: url

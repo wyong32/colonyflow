@@ -34,16 +34,23 @@ export function Footer() {
             <ul className="space-y-3">
               {[
                 ["/", "Home"],
-                ["/levels", "Level Solutions"],
-                ["/blog", "Blog"],
-                ["/download", "Download"],
-                ["/about-us", "About Us"],
-                ["/contact-us", "Contact Us"],
+                ["/levels/", "Level Solutions"],
+                ["/find-level/", "Find by Screenshot"],
+                ["/blog/", "Blog"],
+                ["/download/", "Download"],
+                ["/about-us/", "About Us"],
+                ["/contact-us/", "Contact Us"],
               ].map(([href, label]) => (
                 <li key={href}>
-                  <Link href={href} className="text-sm text-muted-foreground hover:text-primary hover:underline">
-                    {label}
-                  </Link>
+                  {href === "/find-level/" ? (
+                    <a href={href} className="text-sm text-muted-foreground hover:text-primary hover:underline">
+                      {label}
+                    </a>
+                  ) : (
+                    <Link href={href} className="text-sm text-muted-foreground hover:text-primary hover:underline">
+                      {label}
+                    </Link>
+                  )}
                 </li>
               ))}
             </ul>
@@ -54,7 +61,7 @@ export function Footer() {
             <ul className="space-y-3">
               {popularLevels.map((level) => (
                 <li key={level}>
-                  <Link href={`/levels/${level}`} className="text-sm text-muted-foreground hover:text-primary hover:underline">
+                  <Link href={`/levels/${level}/`} className="text-sm text-muted-foreground hover:text-primary hover:underline">
                     Colony Flow Level {level}
                   </Link>
                 </li>
@@ -67,7 +74,7 @@ export function Footer() {
             <ul className="space-y-3">
               {guideLevels.map((level) => (
                 <li key={level}>
-                  <Link href={`/levels/${level}`} className="text-sm text-muted-foreground hover:text-primary hover:underline">
+                  <Link href={`/levels/${level}/`} className="text-sm text-muted-foreground hover:text-primary hover:underline">
                     Level {level} Walkthrough
                   </Link>
                 </li>
@@ -85,10 +92,10 @@ export function Footer() {
             Copyright 2026 {SITE_NAME}. All rights reserved.
           </p>
           <div className="flex gap-6">
-            <Link href="/privacy-policy" className="text-sm text-muted-foreground hover:text-primary hover:underline">
+            <Link href="/privacy-policy/" className="text-sm text-muted-foreground hover:text-primary hover:underline">
               Privacy Policy
             </Link>
-            <Link href="/terms-of-service" className="text-sm text-muted-foreground hover:text-primary hover:underline">
+            <Link href="/terms-of-service/" className="text-sm text-muted-foreground hover:text-primary hover:underline">
               Terms of Service
             </Link>
           </div>

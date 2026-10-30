@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Check, Star, ArrowRight, ChevronDown } from "lucide-react";
+import { Check, Star, ArrowRight, ChevronDown, ScanSearch } from "lucide-react";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
@@ -96,11 +96,13 @@ export function HeroSection() {
 
           {/* Jump to Level */}
           <div className="mb-6 sm:mb-8 bg-card/50 rounded-xl sm:rounded-2xl p-4 sm:p-6 border border-border shadow-sm">
-            <label className="text-xs sm:text-sm font-medium text-foreground mb-2 sm:mb-3 block">
+                <label htmlFor="hero-level-search" className="text-xs sm:text-sm font-medium text-foreground mb-2 sm:mb-3 block">
               Jump to a specific level:
             </label>
             <div className="flex gap-2 sm:gap-3">
               <Input
+                    id="hero-level-search"
+                    name="level"
                 type="text"
                 inputMode="numeric"
                 pattern="[0-9]*"
@@ -123,6 +125,19 @@ export function HeroSection() {
               >
                 Go
               </Button>
+            </div>
+            <div className="mt-4 flex flex-col gap-1 border-t border-border pt-4 sm:flex-row sm:items-center sm:justify-between">
+              <span className="text-xs text-muted-foreground">
+                Level numbers change after some game updates.
+              </span>
+              <a
+                href="/find-level/"
+                className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-primary/80"
+              >
+                <ScanSearch className="h-4 w-4" />
+                Find by Screenshot
+                <ArrowRight className="h-3.5 w-3.5" />
+              </a>
             </div>
           </div>
 

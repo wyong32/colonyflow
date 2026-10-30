@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { Home, Play, Download, Sun, Moon, Menu, X, Search, BookOpen } from "lucide-react";
+import { Home, Play, Download, Sun, Moon, Menu, X, Search, BookOpen, ScanSearch } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useState } from "react";
@@ -38,6 +38,7 @@ export function SiteNavbar() {
   const navItems = [
     { href: "/", label: "Home", icon: Home },
     { href: "/levels", label: "Levels", icon: Play },
+    { href: "/find-level/", label: "Find Level", icon: ScanSearch },
     { href: "/blog", label: "Blog", icon: BookOpen },
     { href: "/download", label: "Download", icon: Download },
   ];
@@ -59,23 +60,27 @@ export function SiteNavbar() {
                 priority
               />
             </div>
-            <span className="text-xl sm:text-2xl font-bold text-primary hidden sm:inline-block">
+            <span className="text-xl sm:text-2xl font-bold text-primary hidden sm:inline-block md:hidden xl:inline-block">
               {GAME_NAME}
             </span>
           </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-1">
-            {navItems.map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                className="flex items-center gap-2 px-4 py-2 text-muted-foreground hover:text-foreground transition-colors rounded-md hover:bg-muted"
-              >
-                <item.icon className="h-4 w-4" />
-                <span className="text-sm font-medium">{item.label}</span>
-              </Link>
-            ))}
+            {navItems.map((item) => {
+              const content = (
+                <>
+                  <item.icon className="h-4 w-4" />
+                  <span className="text-sm font-medium">{item.label}</span>
+                </>
+              );
+              const className = "flex items-center gap-2 px-3 py-2 text-muted-foreground hover:text-foreground transition-colors rounded-md hover:bg-muted";
+              return item.href === "/find-level/" ? (
+                <a key={item.href} href={item.href} className={className}>{content}</a>
+              ) : (
+                <Link key={item.href} href={item.href} className={className}>{content}</Link>
+              );
+            })}
           </div>
         </div>
 
@@ -86,6 +91,8 @@ export function SiteNavbar() {
             <div className="relative">
               <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
               <Input
+                    id="site-level-search"
+                    name="level"
                 type="text"
                 inputMode="numeric"
                 placeholder={`Enter level (1-${MAX_LEVEL})`}
@@ -123,6 +130,8 @@ export function SiteNavbar() {
             size="icon"
             className="md:hidden h-9 w-9"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            aria-label={mobileMenuOpen ? "Close navigation" : "Open navigation"}
+            aria-expanded={mobileMenuOpen}
           >
             {mobileMenuOpen ? (
               <X className="h-4 w-4" />
@@ -137,17 +146,20 @@ export function SiteNavbar() {
       {mobileMenuOpen && (
         <div className="md:hidden border-t border-border bg-card w-full">
           <div className="w-full px-4 sm:px-6 py-4 flex flex-col gap-2">
-            {navItems.map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                className="flex items-center gap-3 px-4 py-3 text-muted-foreground hover:text-foreground transition-colors rounded-md active:bg-muted/50"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                <item.icon className="h-4 w-4" />
-                <span className="text-sm font-medium">{item.label}</span>
-              </Link>
-            ))}
+            {navItems.map((item) => {
+              const content = (
+                <>
+                  <item.icon className="h-4 w-4" />
+                  <span className="text-sm font-medium">{item.label}</span>
+                </>
+              );
+              const className = "flex items-center gap-3 px-4 py-3 text-muted-foreground hover:text-foreground transition-colors rounded-md active:bg-muted/50";
+              return item.href === "/find-level/" ? (
+                <a key={item.href} href={item.href} className={className} onClick={() => setMobileMenuOpen(false)}>{content}</a>
+              ) : (
+                <Link key={item.href} href={item.href} className={className} onClick={() => setMobileMenuOpen(false)}>{content}</Link>
+              );
+            })}
           </div>
         </div>
       )}

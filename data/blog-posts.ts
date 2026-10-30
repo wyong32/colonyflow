@@ -16,12 +16,12 @@ export const blogPosts: BlogPost[] = [
   {
     id: 1,
     slug: "colony-flow-beginner-guide",
-    title: "Colony Flow Beginner Guide: How to Sort Cubes and Clear Early Levels",
+    title: "Colony Flow Beginner Guide: Cube Sorting Tips",
     excerpt: "Learn the core Colony Flow rules, ant movement logic, cube sorting priorities, and beginner mistakes to avoid when solving early colony puzzles.",
     image: "/Colony-Flow-1.jpg",
     category: "Guides & Tips",
     categoryId: "guides",
-    date: "July 7, 2026",
+    date: "October 30, 2026",
     readTime: "8 min read",
     author: "Colony Flow Guide Team",
     content: `
@@ -37,18 +37,18 @@ export const blogPosts: BlogPost[] = [
       <h2>When to Use Walkthrough Videos</h2>
       <p>A walkthrough is most useful when you understand the board but cannot find the order. Pause the video after each major move and copy the sequence. This teaches the route instead of only giving the answer.</p>
       <h2>Final Tip</h2>
-      <p>Colony Flow is not about tapping fast. It is about clean sequencing, smart slot management, and noticing which colors must be freed first.</p>
+      <p>Colony Flow is not about tapping fast. It is about clean sequencing, smart slot management, and noticing which colors must be freed first. Use the <a href="/levels/">level directory</a> for available video solutions or <a href="/find-level/">match a board screenshot</a> when your level number differs.</p>
     `,
   },
   {
     id: 2,
     slug: "colony-flow-tips-and-strategy",
-    title: "Colony Flow Tips and Strategy: Better Move Order for Tricky Levels",
+    title: "Colony Flow Strategy: Better Move Order",
     excerpt: "Use these Colony Flow strategy tips to manage limited slots, avoid blocked trails, choose safer cube stacks, and solve harder ant colony puzzles.",
     image: "/Colony-Flow-33.jpg",
     category: "Guides & Tips",
     categoryId: "guides",
-    date: "July 7, 2026",
+    date: "October 30, 2026",
     readTime: "9 min read",
     author: "Colony Flow Guide Team",
     content: `
@@ -64,7 +64,7 @@ export const blogPosts: BlogPost[] = [
       <h2>Use Pixel Art Progress as Feedback</h2>
       <p>The revealed pixel art is a reward, but it also confirms that the board is progressing in the right direction. If progress stops for several moves, review your color order.</p>
       <h2>Practice With Video Routes</h2>
-      <p>When a level is difficult, watch the first half of the walkthrough, then try to finish the rest yourself. This builds better recognition for future Colony Flow puzzles.</p>
+      <p>When a level is difficult, watch the first half of the walkthrough, then try to finish the rest yourself. This builds better recognition for future Colony Flow puzzles. Browse the <a href="/levels/">available walkthroughs</a> to find the matching video.</p>
     `,
   },
   {
@@ -75,7 +75,7 @@ export const blogPosts: BlogPost[] = [
     image: "/Colony-Flow-68.jpg",
     category: "Walkthroughs",
     categoryId: "walkthroughs",
-    date: "July 7, 2026",
+    date: "October 30, 2026",
     readTime: "7 min read",
     author: "Colony Flow Guide Team",
     content: `
@@ -91,7 +91,7 @@ export const blogPosts: BlogPost[] = [
       <h2>Pause Walkthroughs Strategically</h2>
       <p>If you use a video guide, do not watch passively. Pause at key board states, copy the layout, then play your own level. This improves both speed and understanding.</p>
       <h2>Stay Relaxed</h2>
-      <p>Colony Flow is designed as a relaxing puzzle. Treat speed as a result of better planning, not pressure. Cleaner routes naturally feel faster.</p>
+      <p>Colony Flow is designed as a relaxing puzzle. Treat speed as a result of better planning, not pressure. Cleaner routes naturally feel faster. If a guide number no longer matches your board, use the <a href="/find-level/">screenshot finder</a>.</p>
     `,
   },
 ];

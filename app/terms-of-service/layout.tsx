@@ -18,8 +18,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Terms of Service - ColonyFlow.org',
     description: 'Read the Terms of Service for ColonyFlow.org.',
-    images: [OG_IMAGE],
-    creator: '@ColonyFlowGuide'
+    images: [OG_IMAGE]
   },
   alternates: { canonical: canonical("/terms-of-service/") }
 };

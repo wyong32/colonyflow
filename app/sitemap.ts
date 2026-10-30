@@ -5,54 +5,61 @@ import { SITE_URL } from '@/lib/site';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = SITE_URL;
+  const siteUpdatedAt = new Date('2026-10-30T00:00:00+08:00');
 
   // Static pages
   const staticPages = [
     {
       url: `${baseUrl}/`,
-      lastModified: new Date(),
+      lastModified: siteUpdatedAt,
       changeFrequency: 'daily' as const,
       priority: 1,
     },
     {
       url: `${baseUrl}/levels/`,
-      lastModified: new Date(),
+      lastModified: siteUpdatedAt,
+      changeFrequency: 'weekly' as const,
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/find-level/`,
+      lastModified: siteUpdatedAt,
       changeFrequency: 'weekly' as const,
       priority: 0.9,
     },
     {
       url: `${baseUrl}/blog/`,
-      lastModified: new Date(),
+      lastModified: siteUpdatedAt,
       changeFrequency: 'daily' as const,
       priority: 0.9,
     },
     {
       url: `${baseUrl}/download/`,
-      lastModified: new Date(),
+      lastModified: siteUpdatedAt,
       changeFrequency: 'monthly' as const,
       priority: 0.8,
     },
     {
       url: `${baseUrl}/about-us/`,
-      lastModified: new Date(),
+      lastModified: siteUpdatedAt,
       changeFrequency: 'monthly' as const,
       priority: 0.5,
     },
     {
       url: `${baseUrl}/contact-us/`,
-      lastModified: new Date(),
+      lastModified: siteUpdatedAt,
       changeFrequency: 'monthly' as const,
       priority: 0.5,
     },
     {
       url: `${baseUrl}/privacy-policy/`,
-      lastModified: new Date(),
+      lastModified: siteUpdatedAt,
       changeFrequency: 'yearly' as const,
       priority: 0.3,
     },
     {
       url: `${baseUrl}/terms-of-service/`,
-      lastModified: new Date(),
+      lastModified: siteUpdatedAt,
       changeFrequency: 'yearly' as const,
       priority: 0.3,
     },
@@ -61,7 +68,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Dynamic level pages
   const levelPages = levelsData.map((level) => ({
     url: `${baseUrl}/levels/${level.id}/`,
-    lastModified: new Date(),
+    lastModified: siteUpdatedAt,
     changeFrequency: 'weekly' as const,
     priority: 0.8,
   }));

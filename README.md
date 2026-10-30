@@ -1,6 +1,6 @@
 # Colony Flow Guide
 
-Colony Flow Guide is a walkthrough and tips site for **Colony Flow**, a relaxing ant colony color sorting puzzle game where worker ants carry colorful cubes, clear trails, and reveal pixel art.
+ColonyFlow.org is an independent walkthrough and tips site for **Colony Flow**, a relaxing ant colony color sorting puzzle game where worker ants carry colorful cubes, clear trails, and reveal pixel art.
 
 ## Website
 
